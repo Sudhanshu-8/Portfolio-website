@@ -1,12 +1,12 @@
-import React from 'react';
-import Intro from './components/Intro';
-import AboutMe from './Components/AboutMe';
-import Resume from './components/Resume';
-import Services from './Components/Services';
-import Work from './Components/Work';
-import Contact from './components/Contact';
-import Chatbot from './Components/Chatbot';
-import Navbar from './components/Navbar';
+import React from "react";
+import Intro from "./Components/Intro";
+import AboutMe from "./Components/AboutMe";
+import Resume from "./Components/Resume";
+import Services from "./Components/Services";
+import Work from "./Components/Work";
+import Contact from "./Components/Contact";
+import Chatbot from "./Components/Chatbot";
+import Navbar from "./Components/Navbar";
 
 export default function App() {
   return (
