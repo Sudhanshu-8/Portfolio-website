@@ -12,7 +12,7 @@ export default function AboutMe() {
 
   return (
     <section className="mb-16 px-4 md:px-8" id="about">
-      <h2 className="text-5xl font-extrabold text-white mb-4 mt-10 pl-143">
+      <h2 className="text-5xl font-extrabold text-white mb-4 mt-10 text-center md:text-left pl-0 md:pl-[570px]">
         About Me
       </h2>
 
