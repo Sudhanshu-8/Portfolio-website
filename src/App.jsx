@@ -10,11 +10,11 @@ import Navbar from "./Components/Navbar";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white font-sans">
+    <div className="min-h-screen w-full overflow-x-hidden bg-black text-white font-sans">
       <Navbar />
 
       <div className="pt-24 pb-16 space-y-10">
-        <section id="home" className="px-32">
+        <section id="home" className="px-6 md:px-32">
           <Intro />
         </section>
 
