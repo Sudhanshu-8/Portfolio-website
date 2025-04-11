@@ -1,4 +1,4 @@
-import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export default function Work() {
   return (
@@ -14,14 +14,24 @@ export default function Work() {
           className="block md:hidden"
         >
           <div className="relative overflow-hidden rounded-lg shadow-lg">
-            <h3 className="text-white font-semibold text-lg mb-2">Bookstore App</h3>
-            <img src="/public/work-1.png" alt="Bookstore App" className="w-full h-full object-cover" />
+            <h3 className="text-white font-semibold text-lg mb-2">
+              Bookstore App
+            </h3>
+            <img
+              src="/work-1.png"
+              alt="Bookstore App"
+              className="w-full h-full object-cover"
+            />
           </div>
         </a>
 
         {/* Desktop hover card */}
         <div className="hidden md:block relative group overflow-hidden rounded-lg shadow-lg">
-          <img src="/public/work-1.png" alt="Bookstore App" className="w-full h-full object-cover" />
+          <img
+            src="/work-1.png"
+            alt="Bookstore App"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition duration-500">
             <h3 className="text-xl font-bold text-white mb-2">Bookstore App</h3>
             <p className="text-sm text-gray-300 mb-4 px-2">
@@ -46,13 +56,23 @@ export default function Work() {
           className="block md:hidden"
         >
           <div className="relative overflow-hidden rounded-lg shadow-lg">
-            <h3 className="text-white font-semibold text-lg mb-2">Weather App</h3>
-            <img src="/public/work-2.png" alt="Weather App" className="w-full h-full object-cover" />
+            <h3 className="text-white font-semibold text-lg mb-2">
+              Weather App
+            </h3>
+            <img
+              src="/work-2.png"
+              alt="Weather App"
+              className="w-full h-full object-cover"
+            />
           </div>
         </a>
 
         <div className="hidden md:block relative group overflow-hidden rounded-lg shadow-lg">
-          <img src="/public/work-2.png" alt="Weather App" className="w-full h-full object-cover" />
+          <img
+            src="/work-2.png"
+            alt="Weather App"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition duration-500">
             <h3 className="text-xl font-bold text-white mb-2">Weather App</h3>
             <p className="text-sm text-gray-300 mb-4 px-2">
@@ -77,13 +97,23 @@ export default function Work() {
           className="block md:hidden"
         >
           <div className="relative overflow-hidden rounded-lg shadow-lg">
-            <h3 className="text-white font-semibold text-lg mb-2">Todolist App</h3>
-            <img src="/public/work-3.png" alt="Todolist App" className="w-full h-full object-cover" />
+            <h3 className="text-white font-semibold text-lg mb-2">
+              Todolist App
+            </h3>
+            <img
+              src="/work-3.png"
+              alt="Todolist App"
+              className="w-full h-full object-cover"
+            />
           </div>
         </a>
 
         <div className="hidden md:block relative group overflow-hidden rounded-lg shadow-lg">
-          <img src="/public/work-3.png" alt="Todolist App" className="w-full h-full object-cover" />
+          <img
+            src="/work-3.png"
+            alt="Todolist App"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center text-center opacity-0 group-hover:opacity-100 transition duration-500">
             <h3 className="text-xl font-bold text-white mb-2">Todolist App</h3>
             <p className="text-sm text-gray-300 mb-4 px-2">
