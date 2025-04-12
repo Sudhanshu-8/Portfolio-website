@@ -50,6 +50,14 @@ export default function Chatbot() {
       <h4 className="text-2xl font-bold mb-4 text-center">Chat with Resume!</h4>
 
       <div className="h-64 overflow-y-auto mb-4 p-2 space-y-2 border border-gray-600 rounded">
+        {/* Static welcome message */}
+        <div className="text-sm whitespace-pre-wrap text-white">
+          <strong className="text-white">Assistant:</strong>
+          <br />
+          Hi, I'm here to help you with any questions you have about Sudhanshu Gautam's resume. What's your question?
+        </div>
+
+        {/* Dynamic messages */}
         {messages.slice(1).map((msg, idx) => (
           <div key={idx} className="text-sm whitespace-pre-wrap text-white">
             <strong className={msg.role === 'user' ? 'text-blue-400' : 'text-white'}>

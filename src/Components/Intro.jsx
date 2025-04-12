@@ -35,7 +35,7 @@ export default function Intro() {
         {/* Image on the right */}
         <div className="w-48 h-48 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl mt-6 md:mt-0">
           <img
-            src="/Profile.png"
+            src="/Profile-3.png"
             alt="Sudhanshu Gautam"
             className="w-full h-full object-cover"
           />
